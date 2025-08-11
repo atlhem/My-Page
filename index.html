@@ -10,16 +10,17 @@
   <p>The chatbot widget should appear below:</p>
 
   <!-- 👇 INSERT YOUR JAVASCRIPT WIDGET HERE -->
- <!-- AI Chatbot Widget -->
+ <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
-  // Load the chatbot widget
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.async = true;
-  script.src = 'https://brnaexnwsanyxfvoyhgg.supabase.co/functions/v1/chatbot-widget?api_key=org_25e42f8dff7299be2b0f056d632f147d';
-  
-  var firstScript = document.getElementsByTagName('script')[0];
-  firstScript.parentNode.insertBefore(script, firstScript);
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'b4c92a1c8ab106803f9b8517cb77324e19e3e4f2';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
 </script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </body>
 </html>
